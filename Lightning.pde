@@ -25,8 +25,8 @@ void draw()
   arc(295, 350, 150, 250, PI, 2*PI);
   fill(0);
   noStroke();
-  circle(260, 320, 30);
-  circle(330, 320, 30);
+  ellipse(260, 320, 30, 30);
+  ellipse(330, 320, 30, 30);
   stroke(0);
   line(280, 340, 310, 340);
   stroke(255,255,coloring);
